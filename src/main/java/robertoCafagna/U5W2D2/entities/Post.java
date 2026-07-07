@@ -15,9 +15,9 @@ public class Post {
     private String titolo;
     private String cover;
     private String contenuto;
-    private int minutiDiLettura;
+    private Integer minutiDiLettura;
 
-    public Post(String categoria, String titolo, String contenuto, int minutiDiLettura) {
+    public Post(String categoria, String titolo, String contenuto, Integer minutiDiLettura) {
         Random random = new Random();
         this.id = random.nextInt(1, 10000);
         this.categoria = categoria;
